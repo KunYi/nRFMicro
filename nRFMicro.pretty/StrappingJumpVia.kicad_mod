@@ -1,0 +1,131 @@
+(footprint "StrappingJumpVia"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "SJ2"
+		(at -2.07 -0.56 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ed667789-65c3-49c1-93b2-948c32f0ed9f")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cba7fbe8-7c35-4206-a38c-84bfe3225b7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ec02898-5037-4415-9231-f971245726e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0a41149-1b7e-4442-9a2d-42cf8da2844e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(net_tie_pad_groups "1,2")
+	(fp_line
+		(start -0.209999 0)
+		(end 0.209999 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "ebe800a7-71cb-4576-bc38-85cebb8c5353")
+	)
+	(fp_poly
+		(pts
+			(xy -0.6 -0.349999) (xy -0.6 0.349999) (xy 0.6 0.349999) (xy 0.6 -0.349999)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a81e9ee4-1eef-4569-b5f3-9fbb7cc0481a")
+	)
+	(fp_poly
+		(pts
+			(xy -0.55 -0.34) (xy -0.55 0.34) (xy 0.55 0.34) (xy 0.55 -0.34)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5eddcf55-7fee-4e6d-b621-fcfd2f1507a5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3722d3bd-6507-4548-85e9-5086f306bb56")
+		(effects
+			(font
+				(size 0.2 0.2)
+				(thickness 0.03)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -0.3 0)
+		(size 0.5 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "ceb0e965-5f90-45d6-80e2-d49248dd3af9")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0.3 0)
+		(size 0.5 0.6)
+		(drill 0.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_left bottom_left)
+		(solder_paste_margin_ratio -0.1)
+		(uuid "958dc061-1268-460b-ba79-cfe95a2870e5")
+	)
+	(embedded_fonts no)
+)
