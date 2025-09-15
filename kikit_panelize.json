@@ -1,0 +1,29 @@
+{
+    "layout": {
+        "hspace": "1.5mm",
+        "vspace": "1.5mm",
+        "hbackbone": "2mm",
+        "vbackbone": "1.5mm",
+        "rotation": "180deg",
+        "rows": "2",
+        "cols": "4"
+    },
+    "framing": {
+        "type": "frame",
+        "cuts": "h"
+    },
+    "cuts" : {
+        "type": "v-cuts",
+        "linewidth": "0.4mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5 mm",
+        "voffset": "3 mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "2.5 mm",
+        "voffset": "8 mm"
+    }
+}
